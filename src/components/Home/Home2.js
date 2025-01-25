@@ -21,19 +21,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p align="justify" className="home-about-body">
-              Highly motivated <i>
-                <b className="purple"> Technical Analyst and Mobile Lead with exceptional organizational skills,attention to detail, and a strong work ethic. 
-                </b>
-              </i> Passionate about continuous self-improvement in the IT industry, with expertise in Mobile development od REST API and GraphQL. Proactive, adaptable, and skilled in problem solving, time management, and fostering team collaboration.
-              Completed a <i>
-              <b className="purple">Post Graduate Program in Artificial Intelligence and Machine Learning, increase confidence in Data Science and AI.
-                </b> 
-              </i> Seeking a challenging role in 
-              <i>
-                <b className="purple"> Data Science, machine Learning or related fields
-                </b> 
-              </i>
-               to leverage technical expertise and contribute to team success and progressive career advancement.
+              Hello, I'm
+              <b className="purple"> Hiren Joshi. </b>
+              A highly skilled and experienced software engineer with a
+              <b className="purple"> Master's degree </b> 
+              from
+              <b className="purple"> Parul University (CGPA 7.5) </b> 
+              and a
+              <b className="purple"> Bachelor's degree </b> 
+              from
+              <b className="purple"> Maharaja Krishnakumarsinhji Bhavnagar University (70% aggregate). </b> 
+              With
+              <b className="purple"> 15 years of experience in software engineering</b>
+              , my expertise spans across
+              <b className="purple"> multiple domains and technologies, with a primary focus on mobile app development, </b>
+              and with
+              <b className="purple"> technical Architect and Mobile Lead </b> 
+              with exceptional organizational skills, attention to detail, and a strong work ethic.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
