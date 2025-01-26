@@ -10,8 +10,10 @@ import {
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { MdOutlineDoubleArrow } from "react-icons/md";
+import DateCalculator from "../DateCalculator";
 
 function Home2() {
+  const givenDate = '2011/11/19';
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -32,7 +34,7 @@ function Home2() {
               from
               <b className="purple"> Maharaja Krishnakumarsinhji Bhavnagar University (70% aggregate). </b> 
               With
-              <b className="purple"> 15 years of experience in software engineering</b>
+              <b className="purple"> <DateCalculator givenDate={givenDate}/> of experience in software engineering</b>
               , my expertise spans across
               <b className="purple"> multiple domains and technologies, with a primary focus on mobile app development, </b>
               and with
@@ -59,7 +61,7 @@ function Home2() {
                 SHORT <span className="purple"> WORK UPDATE OF </span> MYSELF
               </h1>
               <p className="home-about-body">
-                Within the <b className="purple">15 years of my software development</b> experience, I have developed a very good focus on the <b className="purple">mobile application</b> section, which is as follows:
+                Within the <b className="purple"><DateCalculator givenDate={givenDate} /> of my software development</b> experience, I have developed a very good focus on the <b className="purple">mobile application</b> section, which is as follows:
                 <ul>
                   <li className="about-activity">
                     <MdOutlineDoubleArrow /> I have worked for <b className="purple">10 years in iOS development with Objective-C, Swift, and SwiftUI</b> to create high-quality and user-friendly applications.
