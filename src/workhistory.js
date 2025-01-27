@@ -1,8 +1,23 @@
 /* Change this file to get your personal Porfolio */
+
+const selfIntroduction = {
+  fullname: "Hiren Joshi",
+  DevelopmentStack: [
+    "Software Developer",
+    "Native iOS Developer",
+    "Native Android Developer",
+    "Fullstack Developer",
+    "Flutter Developer",
+    "React Native Developer",
+    "Open Source Contributor",
+    "Freelancer",
+  ]
+};
+
   // Experience Page
   const experience = {
     title: "Fullstack Software Developer",
-    description: '<p align="justify" className="home-about-body">Highly motivated <i><b className="purple"> Technical Analyst and Mobile Lead with exceptional organizational skills,attention to detail, and a strong work ethic. </b></i> Passionate about continuous self-improvement in the IT industry, with expertise in Mobile development od REST API and GraphQL. Proactive, adaptable, and skilled in problem solving, time management, and fostering team collaboration. Completed a <i><b className="purple">Post Graduate Program in Artificial Intelligence and Machine Learning, increase confidence in Data Science and AI.</b> </i> Seeking a challenging role in <i><b className="purple">Data Science, machine Learning or related fields</b> </i>to leverage technical expertise and contribute to team success and progressive career advancement.</p>',
+    description: '<p align="justify" className="home-about-body">Highly motivated <i><u><b className="purple"> Technical Analyst and Mobile Lead with exceptional organizational skills,attention to detail, and a strong work ethic. </b></i></u> Passionate about continuous self-improvement in the IT industry, with expertise in Mobile development od REST API and GraphQL. Proactive, adaptable, and skilled in problem solving, time management, and fostering team collaboration. Completed a <i><u><b className="purple">Post Graduate Program in Artificial Intelligence and Machine Learning, increase confidence in Data Science and AI.</b></i></u> Seeking a challenging role in <i><u><b className="purple">Data Science, machine Learning or related fields</b></i></u> to leverage technical expertise and contribute to team success and progressive career advancement.</p>',
     experiences: [
           {
             title: "Principle Mobile Engineer",
@@ -101,5 +116,6 @@
   
   export {
     experience,
+    selfIntroduction,
   };
   
