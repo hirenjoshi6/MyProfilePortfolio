@@ -51,6 +51,67 @@ function MyPDFViewer() {
         </Document>
       )}
       {!pdf && <p>Loading PDF...</p>} {/* Display loading message */}
+      <div style={{ position: "relative" }}>
+        {pdf && (
+          <Document file={pdf} onLoadSuccess={onDocumentLoadSuccess} className="d-flex justify-content-center">
+            <Page pageNumber={pageNumber} scale={width > 786 ? 2 : 0.6} />
+          </Document>
+        )}
+        {!pdf && <p>Loading PDF...</p>}
+
+        {/* Floating Previous Button */}
+        <button
+          onClick={prevPage}
+          disabled={pageNumber <= 1 || !numPages}
+          style={{
+            position: "fixed",
+            left: 10,
+            top: "50%",
+            transform: "translateY(-50%)",
+            zIndex: 1000,
+            borderRadius: "50%",
+            padding: "16px",
+            background: "#8a49a862",
+            color: "#fff",
+            border: "none",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
+            cursor: pageNumber <= 1 || !numPages ? "not-allowed" : "pointer",
+          }}
+          aria-label="Previous Page"
+        >
+          &#8592;
+        </button>
+
+        {/* Floating Next Button */}
+        <button
+          onClick={nextPage}
+          disabled={pageNumber >= numPages || !numPages}
+          style={{
+            position: "fixed",
+            right: 10,
+            top: "50%",
+            transform: "translateY(-50%)",
+            zIndex: 1000,
+            borderRadius: "50%",
+            padding: "16px",
+            background: "#8a49a862",
+            color: "#fff",
+            border: "none",
+            boxShadow: "0 2px 8px rgba(0,0,0,0.2)",
+            cursor: pageNumber >= numPages || !numPages ? "not-allowed" : "pointer",
+          }}
+          aria-label="Next Page"
+        >
+          &#8594;
+        </button>
+
+        {/* Page Info */}
+        <div style={{ textAlign: "center", marginTop: "16px" }}>
+          <span>
+            Page {pageNumber} of {numPages}
+          </span>
+        </div>
+      </div>
       {/* <div>
         <button onClick={prevPage} disabled={pageNumber <= 1 || !numPages}> 
           Previous
