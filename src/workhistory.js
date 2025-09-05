@@ -19,6 +19,22 @@ const selfIntroduction = {
     title: "Fullstack Software Developer",
     description: '<p align="justify" className="home-about-body">Highly motivated <i><u><b className="purple"> Technical Analyst and Mobile Lead with exceptional organizational skills,attention to detail, and a strong work ethic. </b></i></u> Passionate about continuous self-improvement in the IT industry, with expertise in Mobile development od REST API and GraphQL. Proactive, adaptable, and skilled in problem solving, time management, and fostering team collaboration. Completed a <i><u><b className="purple">Post Graduate Program in Artificial Intelligence and Machine Learning, increase confidence in Data Science and AI.</b></i></u> Seeking a challenging role in <i><u><b className="purple">Data Science, machine Learning or related fields</b></i></u> to leverage technical expertise and contribute to team success and progressive career advancement.</p>',
     experiences: [
+      {
+            title: "FE Architect & Software Developer",
+            company: "Reliable Group Paragon LLP / AskMia Global Pvt. Ltd.",
+            company_url: "https://www.reliablegroup.com/",
+            company_url2: "https://www.askmia.com/",
+            logo_path: "freelancer_logo.png",
+            duration: "Feb 2025 - Present",
+            isPresent: true,
+            location: "Remote Virtual Place work",
+            description: [
+                "Working as a contract FE Architect & Software Developer with Reliable Group Paragon LLP / AskMia Global Pvt. Ltd.",
+                "Specializing in mobile app development(React Native), web development, AI/ML Engineer and custom software solutions using a variety of technologies including React Native, Flutter, iOS (Swift/Objective-C), Android (Kotlin/Java), and backend technologies.",
+                "Collaborating closely with clients and stack holders to understand their requirements, provide regular updates, and ensure timely delivery of projects.",
+                "Continuously learning and adapting to new technologies and industry trends to provide the best possible solutions to clients."
+            ],
+      },
           {
             title: "Principle Mobile Engineer",
             company: "Itcom Innovation Gaming Group",

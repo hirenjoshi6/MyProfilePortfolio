@@ -70,10 +70,10 @@ function Home2() {
                     <MdOutlineDoubleArrow /> I have also worked for <b className="purple">5 years in Android development with Java and Kotlin</b>, developing stable and efficient applications.
                   </li>
                   <li className="about-activity">
-                    <MdOutlineDoubleArrow /> I have also worked for <b className="purple">4-5 years in cross-platform development using React Native and Flutter</b>.
+                    <MdOutlineDoubleArrow /> I have also worked for <b className="purple">5-6 years in cross-platform development using React Native and Flutter</b>.
                   </li>
                   <li className="about-activity">
-                    <MdOutlineDoubleArrow /> I have also worked for <b className="purple">6 years in Team Lead and Architect</b> level implementation.
+                    <MdOutlineDoubleArrow /> I have also worked for <b className="purple">7 years in Team Lead and Architect</b> level implementation.
                   </li>
                 </ul>
               </p>
