@@ -61,7 +61,7 @@ function Home2() {
                 SHORT <span className="purple"> WORK UPDATE OF </span> MYSELF
               </h1>
               <p className="home-about-body">
-                Over the <b className="purple"><DateCalculator givenDate={givenDate} /> I’ve gained deep expertise in mobile and cross-platform development.:</b>
+                Over the <b className="purple"><DateCalculator givenDate={givenDate} /> I’ve gained deep expertise in mobile and cross-platform development.</b> :
                 <ul>
                   <li className="about-activity">
                     <MdOutlineDoubleArrow /> I’ve spent<b className="purple"> 10+ years in iOS development (Objective-C, Swift, SwiftUI) </b>
