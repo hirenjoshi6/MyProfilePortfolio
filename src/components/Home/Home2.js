@@ -25,21 +25,21 @@ function Home2() {
             <p align="justify" className="home-about-body">
               Hello, I'm
               <b className="purple"> Hiren Joshi. </b>
-              A highly skilled and experienced software engineer with a
-              <b className="purple"> Master's degree </b> 
-              from
-              <b className="purple"> Parul University (CGPA 7.5) </b> 
-              and a
-              <b className="purple"> Bachelor's degree </b> 
-              from
-              <b className="purple"> Maharaja Krishnakumarsinhji Bhavnagar University (70% aggregate). </b> 
-              With
-              <b className="purple"> <DateCalculator givenDate={givenDate}/> of experience in software engineering</b>
+              A Mobile Architect and Software Engineer with
+              <b className="purple"> <DateCalculator givenDate={givenDate} /> of experience </b> 
+              building high-impact applications across
+              <b className="purple"> iOS, Android, Flutter, and React Native. </b> 
+              I specialize in
+              <b className="purple"> designing scalable architectures, leading engineering teams, and delivering user-friendly solutions that serve global audiences. </b> 
+              My expertise spans
+              <b className="purple"> healthcare, gaming, and enterprise domains, with a strong track record of improving product performance, reducing delivery times, and scaling apps </b> 
+              to millions of users.
+              {/* <b className="purple"> <DateCalculator givenDate={givenDate}/> of experience in software engineering</b>
               , my expertise spans across
               <b className="purple"> multiple domains and technologies, with a primary focus on mobile app development, </b>
               and with
               <b className="purple"> technical Architect and Mobile Lead </b> 
-              with exceptional organizational skills, attention to detail, and a strong work ethic.
+              with exceptional organizational skills, attention to detail, and a strong work ethic. */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -61,19 +61,22 @@ function Home2() {
                 SHORT <span className="purple"> WORK UPDATE OF </span> MYSELF
               </h1>
               <p className="home-about-body">
-                Within the <b className="purple"><DateCalculator givenDate={givenDate} /> of my software development</b> experience, I have developed a very good focus on the <b className="purple">mobile application</b> section, which is as follows:
+                Over the <b className="purple"><DateCalculator givenDate={givenDate} /> I’ve gained deep expertise in mobile and cross-platform development.:</b>
                 <ul>
                   <li className="about-activity">
-                    <MdOutlineDoubleArrow /> I have worked for <b className="purple">10 years in iOS development with Objective-C, Swift, and SwiftUI</b> to create high-quality and user-friendly applications.
+                    <MdOutlineDoubleArrow /> I’ve spent<b className="purple"> 10+ years in iOS development (Objective-C, Swift, SwiftUI) </b>
                   </li>
                   <li className="about-activity">
-                    <MdOutlineDoubleArrow /> I have also worked for <b className="purple">5 years in Android development with Java and Kotlin</b>, developing stable and efficient applications.
+                    <MdOutlineDoubleArrow /> I’ve spent <b className="purple">5+ years in Android (Kotlin, Java)</b>
                   </li>
                   <li className="about-activity">
-                    <MdOutlineDoubleArrow /> I have also worked for <b className="purple">5-6 years in cross-platform development using React Native and Flutter</b>.
+                    <MdOutlineDoubleArrow /> I’ve spent <b className="purple">5+ years with Flutter and React Native.</b>.
                   </li>
                   <li className="about-activity">
-                    <MdOutlineDoubleArrow /> I have also worked for <b className="purple">7 years in Team Lead and Architect</b> level implementation.
+                    <MdOutlineDoubleArrow /> and I’ve spent <b className="purple"> 7+ years as a Team Lead and Architect.</b>
+                  </li>
+                  <li className="about-activity">
+                    <MdOutlineDoubleArrow /> I’ve guided teams of up to<b className="purple"> 24 engineers, optimized delivery pipelines, and ensured apps met both technical and business goals. </b>
                   </li>
                 </ul>
               </p>

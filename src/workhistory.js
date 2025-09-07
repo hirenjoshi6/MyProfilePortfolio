@@ -1,23 +1,38 @@
 /* Change this file to get your personal Porfolio */
 
 const selfIntroduction = {
+  greeting: "Hello There! 👋 I'm",
   fullname: "Hiren Joshi",
   DevelopmentStack: [
-    "Software Developer",
-    "Native iOS Developer",
-    "Native Android Developer",
+    "Mobile Architect",
+    "iOS & Android Developer",
+    "Flutter & React Native Specialist",
+    "Frontend Architect",
     "Fullstack Developer",
-    "Flutter Developer",
-    "React Native Developer",
-    "Open Source Contributor",
-    "Freelancer",
-  ]
+    "Team Lead & Mentor",
+    ],
+  // myself: "Hello, I'm Hiren Joshi. A highly skilled and experienced software engineer with a Master's degree from Parul University (CGPA 7.5) and a Bachelor's degree from Maharaja Krishnakumarsinhji Bhavnagar University (70% aggregate). With 15 years and 9 months of experience in software engineering, my expertise spans across multiple domains and technologies, with a primary focus on mobile app development, and with technical Architect and Mobile Lead with exceptional organizational skills, attention to detail, and a strong work ethic.",
+  // shortworks: "Within the 15 years and 9 months of my software development experience, I have developed a very good focus on the mobile application section, which is as follows: I have worked for 10 years in iOS development with Objective-C, Swift, and SwiftUI to create high-quality and user-friendly applications. I have also worked for 5 years in Android development with Java and Kotlin, developing stable and efficient applications. I have also worked for 5-6 years in cross-platform development using React Native and Flutter. I have also worked for 7 years in Team Lead and Architect level implementation."
+  myself:
+    "I’m Hiren Joshi, a Mobile Architect and Software Engineer with 15+ years of experience building high-impact applications across iOS, Android, Flutter, and React Native. I specialize in designing scalable architectures, leading engineering teams, and delivering user-friendly solutions that serve global audiences. My expertise spans healthcare, gaming, and enterprise domains, with a strong track record of improving product performance, reducing delivery times, and scaling apps to millions of users.",
+  shortworks:
+    "Over the last 15+ years, I’ve gained deep expertise in mobile and cross-platform development. I’ve spent 10 years in iOS development (Objective-C, Swift, SwiftUI), 5 years in Android (Kotlin, Java), and 5+ years with Flutter and React Native. As a Team Lead and Architect for 7+ years, I’ve guided teams of up to 24 engineers, optimized delivery pipelines, and ensured apps met both technical and business goals.",
 };
 
-  // Experience Page
-  const experience = {
+const aboutMe = {
+  title: "Know Who I'M & Professional Skillset",
+  // details: "Hi Everyone, I am Hiren Joshi from Gujarat, India. I am associated with the Reliable Group Paragon LLP / AskMia Global Pvt. Ltd.",
+  // otherdetails: "Apart from coding, some other activities that I love to do!: Playing Games, Writing Tech Blogs, Travelling, Watching Movies and Series. Strive to build things that make a difference! -- Hiren"
+  details:
+    "Hi, I’m Hiren Joshi from Gujarat, India. Currently, I work with Reliable Group Paragon LLP / AskMia Global Pvt. Ltd. as a Frontend Architect and Software Developer. I focus on creating secure, performant, and scalable solutions across mobile and web platforms, while also mentoring teams and collaborating closely with stakeholders.",
+  otherdetails:
+    "Beyond coding, I enjoy gaming, writing tech blogs, traveling, and exploring movies & series. These interests fuel my curiosity, creativity, and problem-solving mindset. Above all, I strive to build technology that makes a real difference. — Hiren",
+};
+
+// Experience Page
+const experience = {
     title: "Fullstack Software Developer",
-    description: '<p align="justify" className="home-about-body">Highly motivated <i><u><b className="purple"> Technical Analyst and Mobile Lead with exceptional organizational skills,attention to detail, and a strong work ethic. </b></i></u> Passionate about continuous self-improvement in the IT industry, with expertise in Mobile development od REST API and GraphQL. Proactive, adaptable, and skilled in problem solving, time management, and fostering team collaboration. Completed a <i><u><b className="purple">Post Graduate Program in Artificial Intelligence and Machine Learning, increase confidence in Data Science and AI.</b></i></u> Seeking a challenging role in <i><u><b className="purple">Data Science, machine Learning or related fields</b></i></u> to leverage technical expertise and contribute to team success and progressive career advancement.</p>',
+    description: 'Experienced <i><u><b className="purple">Mobile Architect and Team Lead</b></i></u> with a proven record of building scalable apps and leading teams across iOS, Android, Flutter, and React Native. Skilled in REST APIs, GraphQL, and cloud-native backends. Passionate about continuous learning and recently completed a <i><u><b className="purple">Post Graduate Program in Artificial Intelligence and Machine Learning</b></i></u>, applying AI/ML concepts to enhance mobile solutions. I’m looking to contribute as a <i><u><b className="purple">Mobile Architect, Engineering Leader, or Senior Developer</b></i></u>, delivering impactful apps that delight users and drive business growth.</p>',
     experiences: [
       {
             title: "FE Architect & Software Developer",
@@ -128,10 +143,11 @@ const selfIntroduction = {
             ],
           },
     ],
-  };
+};
   
-  export {
-    experience,
-    selfIntroduction,
-  };
+export {
+  experience,
+  selfIntroduction,
+  aboutMe,
+};
   

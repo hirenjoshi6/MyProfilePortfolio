@@ -10,11 +10,12 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Hiren Joshi </span>
             from <span className="purple"> Gujarat, India.</span>
-            <br />
-            I was associated with the <span className="purple">ITCom Innovation Gaming group in Metro Manila, Philippines.</span>
-            <br />
-            <br />
-            Apart from coding, some other activities that I love to do!
+            <br /> Currently, I work <span className="purple">
+              with Reliable Group Paragon LLP / AskMia Global Pvt. Ltd. as a Frontend Architect and Software Developer.
+            </span>
+            <br/> I focus on creating secure, performant, and scalable solutions across mobile and web platforms, while also mentoring teams and collaborating closely with stakeholders.
+            <br/>
+            <br/> Beyond coding, I enjoy
           </p>
           <ul>
             <li className="about-activity">
@@ -27,10 +28,10 @@ function AboutCard() {
               <ImPointRight /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies and Series
+              <ImPointRight /> Exploring movies & series
             </li>
           </ul>
-
+          These interests fuel my curiosity, creativity, and problem-solving mindset. Above all
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
