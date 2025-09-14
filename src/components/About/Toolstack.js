@@ -13,7 +13,7 @@ import {
   SiJetbrains,
   SiNeovim
 } from "react-icons/si";
-import { DiNetbeans, BiLogoVisualStudio } from "react-icons/di";
+import { DiNetbeans} from "react-icons/di";
 import { BsMicrosoftTeams,
   BsWind
  } from "react-icons/bs";
@@ -34,11 +34,6 @@ function Toolstack() {
       <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger placement="top" overlay={<Tooltip id="vscode-tooltip">Visual Studio Code</Tooltip>}>
           <span><SiVisualstudiocode /></span>
-        </OverlayTrigger>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <OverlayTrigger placement="top" overlay={<Tooltip id="vstudio-tooltip">Visual Studio</Tooltip>}>
-          <span><BiLogoVisualStudio /></span>
         </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
