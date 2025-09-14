@@ -10,9 +10,10 @@ import {
   SiAndroidstudio,
   SiXcode,
   SiCurseforge,
-  windsurf
+  SiJetbrains,
+  SiNeovim
 } from "react-icons/si";
-import { DiNetbeans } from "react-icons/di";
+import { DiNetbeans, BiLogoVisualStudio } from "react-icons/di";
 import { BsMicrosoftTeams,
   BsWind
  } from "react-icons/bs";
@@ -36,6 +37,16 @@ function Toolstack() {
         </OverlayTrigger>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger placement="top" overlay={<Tooltip id="vstudio-tooltip">Visual Studio</Tooltip>}>
+          <span><BiLogoVisualStudio /></span>
+        </OverlayTrigger>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger placement="top" overlay={<Tooltip id="jetbrains-tooltip">JetBrains</Tooltip>}>
+          <span><SiJetbrains /></span>
+        </OverlayTrigger>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger placement="top" overlay={<Tooltip id="cursor-tooltip">Cursor</Tooltip>}>
           <span><SiCurseforge /></span>
         </OverlayTrigger>
@@ -50,7 +61,11 @@ function Toolstack() {
           <span><DiNetbeans/></span>
         </OverlayTrigger>
       </Col>
-
+      <Col xs={4} md={2} className="tech-icons">
+        <OverlayTrigger placement="top" overlay={<Tooltip id="neovim-tooltip">Neovim</Tooltip>}>
+          <span><SiNeovim /></span>
+        </OverlayTrigger>
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <OverlayTrigger placement="top" overlay={<Tooltip id="postman-tooltip">Postman</Tooltip>}>
           <span><SiPostman /></span>
