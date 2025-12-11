@@ -60,13 +60,13 @@
           { "name": "Android (Kotlin/Java)", "description": "Android expertise", "proficiency": 6 },
           { "name": "Flutter", "description": "Cross-platform with Dart", "proficiency": 6 },
           { "name": "React Native", "description": "JavaScript-based mobile apps", "proficiency": 6 },
-          { "name": "AI & ML", "description": "Machine Learning & AI", "proficiency": 2 },
+          { "name": "AI & ML", "description": "Machine Learning & AI", "proficiency": 3 },
           { "name": "C|CEH", "description": "Certified Ethical Hacker", "proficiency": 2 }
         ]
       },
       {
         "icon": "Server",
-        "title": "Backend & APIs",
+        "title": "AI & Data Engineering",
         "skills": [
           { "name": "Node.js", "description": "Server-side JavaScript runtime", "proficiency": 5 },
           { "name": "Python", "description": "Backend development", "proficiency": 4 },
@@ -77,7 +77,8 @@
           { "name": "Firebase", "description": "Real-time database & auth", "proficiency": 8 },
           { "name": "REST APIs", "description": "RESTful service design", "proficiency": 10 },
           { "name": "GraphQL", "description": "Flexible query language", "proficiency": 7 },
-          { "name": "WebSocket", "description": "Real-time communication", "proficiency": 6 }
+          { "name": "WebSocket", "description": "Real-time communication", "proficiency": 6 },
+          { "name": "Blockchain / Web3 Integration", "description": "Ethereum, Web3.js, Smart Contracts, Wallet APIs, Decentralized Authentication", "proficiency": 2.5 }
         ]
       },
       {
@@ -100,7 +101,7 @@
           { "name": "MVVM", "description": "Model-View-ViewModel", "proficiency": 10 },
           { "name": "Clean Architecture", "description": "Scalable code structure", "proficiency": 9 },
           { "name": "MVI", "description": "Model-View-Intent", "proficiency": 2 },
-          { "name":"SOLID principles", "description": "SRP-OCP-LSP-ISP-DIP", "proficiency": 10 },
+          { "name": "SOLID principles", "description": "SRP-OCP-LSP-ISP-DIP", "proficiency": 10 },
           { "name": "BLoC Pattern", "description": "Business logic components", "proficiency": 6 },
           { "name": "Redux/MobX", "description": "State management", "proficiency": 7 },
           { "name": "Microservices", "description": "Distributed systems", "proficiency": 6 }
@@ -384,6 +385,213 @@
         "name": "Email",
         "url": "mailto:hirenjoshi0007@gmail.com",
         "icon": "Mail"
+      }
+    ]
+  },
+  "projects": {
+    "texts": {
+      "pageTitle": "Projects",
+      "pageSubtitle": "Selected applications across mobile, backend and cloud",
+      "filtersTitle": "Filter by technology stack"
+    },
+    "items": [
+      {
+        "title": "Talk2All",
+        "description": "VoIP calling app enabling low-cost international calls with SIP technology and global connectivity.",
+        "startDate": "2019-01",
+        "endDate": "2019-08",
+        "androidUrl": "https://play.google.com/store/apps/details?id=net.talk2all&hl=en_IN",
+        "iosUrl": "https://apps.apple.com/us/app/talk2all-talk-more-pay-less/id1455446696?ls=1",
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "Go", "Gen AI"],
+        "cloudProviders": ["GCP"],
+        "domain": "Communication"
+      },
+      {
+        "title": "myWork Phlebotomist App",
+        "description": "Healthcare logistics platform enabling at-home phlebotomy services with scheduling, routing and billing.",
+        "startDate": "2022-01",
+        "endDate": "2023-01",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.myonsite.mywork&hl=en_IN",
+        "iosUrl": "https://apps.apple.com/us/app/mywork-health/id1554817671",
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "Gen AI"],
+        "cloudProviders": ["AWS", "GCP"],
+        "domain": "Healthcare"
+      },
+      {
+        "title": "Mapsted Sandbox",
+        "description": "Staging environment app to validate beacon-free indoor positioning and navigation experiences before production.",
+        "startDate": "2022-10",
+        "endDate": "2023-03",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.mapsted.demo&hl=en_IN",
+        "iosUrl": "https://apps.apple.com/us/app/mapsted-sandbox/id1464010069",
+        "backendStacks": ["Node.js", "Python", "Go", "C++"],
+        "cloudProviders": ["AWS", "Azure"],
+        "domain": "Indoor Navigation"
+      },
+      {
+        "title": "Trial Navigator",
+        "description": "Advanced staging app used to test Mapsted indoor positioning technology and navigation use cases.",
+        "startDate": "2022-10",
+        "endDate": "2023-03",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.mapsted.trial_navigator&hl=en_IN",
+        "iosUrl": "https://apps.apple.com/us/app/trial-navigator/id1659836287",
+        "backendStacks": ["Node.js", "Python", "Django", "Go", "C++"],
+        "cloudProviders": ["AWS", "Azure", "GCP"],
+        "domain": "Indoor Navigation"
+      },
+      {
+        "title": "The National Cowboy Museum",
+        "description": "Museum navigation app with blue-dot wayfinding, curated routes and accessibility-first visitor experience.",
+        "startDate": "2022-10",
+        "endDate": "2023-03",
+        "androidUrl": null,
+        "iosUrl": "https://apps.apple.com/us/app/the-national-cowboy-museum/id6449958574",
+        "backendStacks": ["Node.js", "Java", "Go", "C++"],
+        "cloudProviders": ["AWS", "Azure"],
+        "domain": "Museum & Exhibitions"
+      },
+      {
+        "title": "Locate Track Assets Indoor",
+        "description": "IoT asset tracking platform with real-time indoor positioning, warranty management and alerting.",
+        "startDate": "2022-10",
+        "endDate": "2023-03",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.mapsted.locate&hl=en_IN",
+        "iosUrl": "https://apps.apple.com/us/app/locate-track-assets-indoor/id6739284059",
+        "backendStacks": ["Node.js", "Python", "Django", "Go", "C++"],
+        "cloudProviders": ["AWS", "Azure", "GCP"],
+        "domain": "Asset Tracking"
+      },
+      {
+        "title": "The Strong Museum Indoor Map",
+        "description": "Indoor mapping app providing turn-by-turn navigation and exhibit discovery for museum visitors.",
+        "startDate": "2022-10",
+        "endDate": "2023-03",
+        "androidUrl": null,
+        "iosUrl": "https://apps.apple.com/us/app/the-strong-museum-indoor-map/id6449958419",
+        "backendStacks": ["Node.js", "Python", "Java", "C++"],
+        "cloudProviders": ["AWS", "GCP"],
+        "domain": "Museum & Exhibitions"
+      },
+      {
+        "title": "MiaCares",
+        "description": "AI-driven healthcare assistant for Medicare and Medicaid members, simplifying benefits and care navigation.",
+        "startDate": "2025-01",
+        "endDate": null,
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.askmia.miacares",
+        "iosUrl": "https://apps.apple.com/us/app/miacares/id6737230900",
+        "backendStacks": ["Python", "Django", "Java", "Gen AI"],
+        "cloudProviders": ["Azure"],
+        "domain": "Healthcare & AI"
+      },
+      {
+        "title": "CampusGO",
+        "description": "Indoor-outdoor campus navigation app delivering wayfinding, accessibility and curated campus experiences.",
+        "startDate": "2022-10",
+        "endDate": "2023-03",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.mapsted.campusgo&hl=en_IN",
+        "iosUrl": "https://apps.apple.com/us/app/campusgo/id1505775827",
+        "backendStacks": ["Node.js", "Python", "Go", "C++"],
+        "cloudProviders": ["AWS", "Azure", "GCP"],
+        "domain": "Education & Campus"
+      },
+      {
+        "title": "FindMyWay Airport Navigator",
+        "description": "Airport navigation app with blue-dot positioning, amenity discovery and traveler-friendly wayfinding.",
+        "startDate": "2022-11",
+        "endDate": "2023-07",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.mapsted.location_intel&hl=en_IN",
+        "iosUrl": "https://apps.apple.com/us/app/find-my-way/id1659389004",
+        "backendStacks": ["Node.js", "Python", "Java", "Go", "C++"],
+        "cloudProviders": ["AWS", "Azure"],
+        "domain": "Travel & Transportation"
+      },
+      {
+        "title": "Sheridan Campusway",
+        "description": "Rail and campus navigation app providing indoor-outdoor wayfinding and real-time commuter information.",
+        "startDate": "2022-10",
+        "endDate": "2023-03",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.mapsted.sheridancampusway&hl=en_IN",
+        "iosUrl": "https://apps.apple.com/us/app/sheridan-campusway/id6745218194",
+        "backendStacks": ["Node.js", "Python", "Django", "Go"],
+        "cloudProviders": ["AWS", "GCP"],
+        "domain": "Transportation"
+      },
+      {
+        "title": "Mall Navigator",
+        "description": "Shopping mall navigation and discovery app with indoor wayfinding, smart directory and personalized offers.",
+        "startDate": "-",
+        "endDate": "-",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.mapsted.mallnavigator&hl=en_IN",
+        "iosUrl": null,
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "Go", "C++"],
+        "cloudProviders": ["AWS", "Azure", "GCP"],
+        "domain": "Retail & Commerce"
+      },
+      {
+        "title": "Legacy Trail Navigator",
+        "description": "Location intelligence sandbox app to test campaigns, analytics and proximity-based notifications.",
+        "startDate": "-",
+        "endDate": "-",
+        "androidUrl": "https://play.google.com/store/apps/details?id=com.takenaka.navigator&hl=en_IN",
+        "iosUrl": null,
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "Go", "C++"],
+        "cloudProviders": ["AWS", "Azure", "GCP"],
+        "domain": "Location Intelligence"
+      },
+      {
+        "title": "Singapore Pools",
+        "description": "Official national lottery and sports betting operator with mobile app and online platform for gaming and betting",
+        "startDate": "2023-Jan",
+        "endDate": "2025-Jan",
+        "androidUrl": null,
+        "iosUrl": null,
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "C++"],
+        "cloudProviders": ["Alibaba Cloud", "Tencent Cloud"],
+        "domain": "Casino & Gaming"
+      },
+      {
+        "title": "Singapore Pools",
+        "description": "Official national lottery and sports betting operator with mobile app and online platform for gaming and betting",
+        "startDate": "2023-Jan",
+        "endDate": "2025-Jan",
+        "androidUrl": null,
+        "iosUrl": null,
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "C++"],
+        "cloudProviders": ["Alibaba Cloud", "Tencent Cloud"],
+        "domain": "Casino & Gaming"
+      },
+      {
+        "title": "Marina Bay Sands & Resorts World Sentosa Apps",
+        "description": "Casino loyalty/reservation apps (not for actual gambling, just for booking and rewards programs including virtual currency for in-app purchases). Used for reservations, rewards tracking, and virtual currency management.",
+        "startDate": "2023-Jan",
+        "endDate": "2025-Jan",
+        "androidUrl": null,
+        "iosUrl": null,
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "C++"],
+        "cloudProviders": ["Alibaba Cloud", "Tencent Cloud"],
+        "domain": "E-Commerce"
+      },
+      {
+        "title": "PAGCOR Casino",
+        "description": "Official government-operated casinos with IOT-mobile apps for gaming and betting, including virtual currency management",
+        "startDate": "2023-Jan",
+        "endDate": "2025-Jan",
+        "androidUrl": null,
+        "iosUrl": null,
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "C++"],
+        "cloudProviders": ["Alibaba Cloud", "Tencent Cloud"],
+        "domain": "Casino & Gaming"
+      },
+      {
+        "title": "Philippine Charity Sweepstakes Office (PCSO)",
+        "description": "National lottery operator with mobile apps for lottery games and betting, including virtual currency management for in-app purchases and rewards tracking",
+        "startDate": "2023-Jan",
+        "endDate": "2025-Jan",
+        "androidUrl": null,
+        "iosUrl": null,
+        "backendStacks": ["Node.js", "Python", "Django", "Java", "C++"],
+        "cloudProviders": ["Alibaba Cloud", "Tencent Cloud"],
+        "domain": "E-Commerce & Casino Gaming"
       }
     ]
   },
