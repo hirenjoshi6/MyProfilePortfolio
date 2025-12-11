@@ -1,75 +1,73 @@
-<h2 align="center">
-  Portfolio Website - v2.0<br/>
-  <a href="https://joshiren.vercel.app/" target="_blank">Hiren Joshi.tech</a>
-</h2>
-<div align="center">
-  <img alt="Demo" src="./public/readme-img1.png" />
-  <img alt="Demo" src="./public/readme-img2.png" />
-</div>
+# Welcome to your Lovable project
 
-<br/>
+## Project info
 
-<center>
+**URL**: https://lovable.dev/projects/cc7fcc3f-88a3-4f44-a765-d384c5e7264a
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com) &nbsp;
-[![forthebadge](https://forthebadge.com/images/badges/open-source.svg)](https://forthebadge.com) &nbsp;
-![GitHub Repo stars](https://img.shields.io/github/stars/hirenjoshi6/Portfolio?color=red&logo=github&style=for-the-badge) &nbsp;
-![GitHub forks](https://img.shields.io/github/forks/hirenjoshi6/Portfolio?color=red&logo=github&style=for-the-badge)
+## How can I edit this code?
 
-</center>
+There are several ways of editing your application.
 
-<h3 align="center">
-    🔹
-    <a href="https://github.com/hirenjoshi6/Portfolio/issues">Report Bug</a> &nbsp; &nbsp;
-    🔹
-    <a href="https://github.com/hirenjoshi6/Portfolio/issues">Request Feature</a>
-</h3>
+**Use Lovable**
 
-## TL;DR
+Simply visit the [Lovable Project](https://lovable.dev/projects/cc7fcc3f-88a3-4f44-a765-d384c5e7264a) and start prompting.
 
-You can fork this repo to modify and make changes of your own. Please give me proper credit by linking back to [hirenjoshi6](https://github.com/hirenjoshi6/Portfolio). Thanks!
+Changes made via Lovable will be committed automatically to this repo.
 
-## Built With
+**Use your preferred IDE**
 
-My personal portfolio <a href="https://joshiren.vercel.app/" target="_blank">Hiren.tech</a> which features some of my github projects as well as my resume and technical skills.<br/>
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-This project was built using these technologies.
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-- React.js
-- Node.js
-- Express.js
-- CSS3
-- VsCode
-- Vercel
+Follow these steps:
 
-## Features
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-**📖 Multi-Page Layout**
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
 
-**🎨 Styled with React-Bootstrap and Css with easy to customize colors**
+# Step 3: Install the necessary dependencies.
+npm i
 
-**📱 Fully Responsive**
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
 
-## Getting Started
+**Edit a file directly in GitHub**
 
-Clone down this repository. You will need `node.js` and `git` installed globally on your machine.
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
 
-## 🛠 Installation and Setup Instructions
+**Use GitHub Codespaces**
 
-1. Installation: `npm install`
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
 
-2. In the project directory, you can run: `npm start`
+## What technologies are used for this project?
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-The page will reload if you make edits.
+This project is built with:
 
-## Usage Instructions
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
 
-Open the project folder and Navigate to `/src/components/`. <br/>
-You will find all the components used and you can edit your information accordingly.
+## How can I deploy this project?
 
-### Show your support
+Simply open [Lovable](https://lovable.dev/projects/cc7fcc3f-88a3-4f44-a765-d384c5e7264a) and click on Share -> Publish.
 
-Give a ⭐ if you like this website!
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)

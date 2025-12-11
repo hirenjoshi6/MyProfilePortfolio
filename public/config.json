@@ -1,0 +1,86 @@
+{
+  "theme": {
+    "defaultMode": "system",
+    "colors": {
+      "primary": "#3B82F6",
+      "secondary": "#8B5CF6",
+      "accent": "#8B5CF6"
+    },
+    "fontFamily": "Inter"
+  },
+  "pages": {
+    "home": {
+      "isVisible": true,
+      "sections": {
+        "greeting": true,
+        "techStack": true,
+        "skillsGrid": true,
+        "introduction": true,
+        "expertise": true
+      }
+    },
+    "about": {
+      "isVisible": true,
+      "sections": {
+        "bio": true,
+        "experience": true,
+        "hobbies": true,
+        "currentWork": true,
+        "skills": true
+      }
+    },
+    "workHistory": {
+      "isVisible": true,
+      "sections": {
+        "overview": true,
+        "Indicator": false,
+        "timeline": true
+      }
+    },
+      "resume": {
+        "isVisible": true,
+        "resumePath": "/resume.pdf"
+      },
+      "contact": {
+        "isVisible": true,
+        "showForm": true,
+        "showSocials": true
+      },
+      "blogs": {
+        "isVisible": true,
+        "showGithub": true
+      },
+      "projects": {
+        "isVisible": true,
+        "sections": {
+          "overview": true,
+          "filters": true,
+          "grid": true
+        }
+      }
+    },
+  "header": {
+    "logo": "HJ",
+    "header_setting": false,
+    "navigation": [
+      { "name": "Home", "path": "/", "isVisible": true },
+      { "name": "About", "path": "/about", "isVisible": true },
+      { "name": "History", "path": "/history", "isVisible": true },
+      { "name": "Projects", "path": "/projects", "isVisible": true },
+      { "name": "Resume", "path": "/resume", "isVisible": true },
+      { "name": "Contact", "path": "/contact", "isVisible": true },
+      { "name": "Blogs", "path": "/blogs", "isVisible": true }
+    ]
+  },
+  "footer": {
+    "isVisible": true,
+    "showSocials": true,
+    "showLinks": true,
+    "showCopyright": true
+  },
+  "animations": {
+    "enabled": true,
+    "duration": "0.6s",
+    "easing": "ease-out"
+  }
+}

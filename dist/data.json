@@ -1,0 +1,427 @@
+{
+  "personal": {
+    "name": "Hiren Joshi",
+    "title": "Mobile Architect",
+    "email": "hirenjoshi0007@gmail.com",
+    "phone": "+91 9974585181",
+    "location": "India",
+    "github": "https://github.com/hirenjoshi6",
+    "linkedin": "https://www.linkedin.com/in/joshiren0007/",
+    "twitter": "https://x.com/hirenjoshi6",
+    "website": "https://joshiren.vercel.app",
+    "instagram": "https://www.instagram.com/hirenjoshi6"
+  },
+  "home": {
+    "greeting": "Hi There! 👋🏻",
+    "introduction": "A Mobile Architect and Software Engineer with {experience} of experience building high-impact applications across iOS, Android, Flutter, and React Native. I specialize in designing scalable architectures, leading engineering teams, and delivering user-friendly solutions that serve global audiences. My expertise spans healthcare, gaming, and enterprise domains, with a strong track record of improving product performance, reducing delivery times, and scaling apps to millions of users.",
+    "techStack": [
+      "iOS (Objective-C, Swift, SwiftUI)",
+      "Android (Kotlin, Java)",
+      "Flutter",
+      "React Native",
+      "Mobile Architecture",
+      "Team Leadership",
+      "Scalable Systems",
+      "Healthcare Apps",
+      "Gaming Platforms",
+      "Enterprise Solutions",
+      "Performance Optimization",
+      "Global Scale Apps"
+    ],
+    "expertise": [
+      {
+        "title": "iOS Development",
+        "description": "11+ years mastering Objective-C, Swift, and SwiftUI to build robust, high-performance iOS applications"
+      },
+      {
+        "title": "Android Development",
+        "description": "6+ years creating powerful Android experiences with Kotlin and Java, focusing on scalability and user engagement"
+      },
+      {
+        "title": "Cross-Platform Excellence",
+        "description": "6+ years with Flutter and React Native, delivering seamless experiences across platforms while maintaining native performance"
+      },
+      {
+        "title": "Full Stack Development",
+        "description": "5 years of full-stack development (JavaScript, TypeScript, server management, node.js, php, Python, Go-land)"
+      },
+      {
+        "title": "Architecture & Leadership",
+        "description": "7+ years as Team Lead and Architect, guiding teams of up to 25-30 engineers and optimizing delivery pipelines for success"
+      }
+    ],
+    "skillsGrid": [
+      {
+        "icon": "Smartphone",
+        "title": "Mobile Development",
+        "skills": [
+          { "name": "iOS (Swift/SwiftUI)", "description": "Native iOS development", "proficiency": 11 },
+          { "name": "Objective-C", "description": "Legacy iOS maintenance", "proficiency": 11 },
+          { "name": "Android (Kotlin/Java)", "description": "Android expertise", "proficiency": 6 },
+          { "name": "Flutter", "description": "Cross-platform with Dart", "proficiency": 6 },
+          { "name": "React Native", "description": "JavaScript-based mobile apps", "proficiency": 6 },
+          { "name": "AI & ML", "description": "Machine Learning & AI", "proficiency": 2 },
+          { "name": "C|CEH", "description": "Certified Ethical Hacker", "proficiency": 2 }
+        ]
+      },
+      {
+        "icon": "Server",
+        "title": "Backend & APIs",
+        "skills": [
+          { "name": "Node.js", "description": "Server-side JavaScript runtime", "proficiency": 5 },
+          { "name": "Python", "description": "Backend development", "proficiency": 4 },
+          { "name": "Django", "description": "Python web framework", "proficiency": 3 },
+          { "name": "FastAPI", "description": "Modern Python API framework", "proficiency": 2 },
+          { "name": "Go", "description": "Concurrent systems", "proficiency": 3 },
+          { "name": "Golang", "description": "Backend programming", "proficiency": 3 },
+          { "name": "Firebase", "description": "Real-time database & auth", "proficiency": 8 },
+          { "name": "REST APIs", "description": "RESTful service design", "proficiency": 10 },
+          { "name": "GraphQL", "description": "Flexible query language", "proficiency": 7 },
+          { "name": "WebSocket", "description": "Real-time communication", "proficiency": 6 }
+        ]
+      },
+      {
+        "icon": "Cloud",
+        "title": "Cloud & DevOps",
+        "skills": [
+          { "name": "AWS", "description": "Amazon Web Services", "proficiency": 7 },
+          { "name": "Google Cloud", "description": "GCP services", "proficiency": 6 },
+          { "name": "Azure", "description": "DevOps services", "proficiency": 4 },
+          { "name": "CI/CD", "description": "Automated pipelines", "proficiency": 8 },
+          { "name": "Docker", "description": "Containerization", "proficiency": 4 },
+          { "name": "Fastlane", "description": "Mobile automation", "proficiency": 9 },
+          { "name": "Jenkins", "description": "CI/CD automation", "proficiency": 6 }
+        ]
+      },
+      {
+        "icon": "Layers",
+        "title": "Architecture & Patterns",
+        "skills": [
+          { "name": "MVVM", "description": "Model-View-ViewModel", "proficiency": 10 },
+          { "name": "Clean Architecture", "description": "Scalable code structure", "proficiency": 9 },
+          { "name": "MVI", "description": "Model-View-Intent", "proficiency": 2 },
+          { "name":"SOLID principles", "description": "SRP-OCP-LSP-ISP-DIP", "proficiency": 10 },
+          { "name": "BLoC Pattern", "description": "Business logic components", "proficiency": 6 },
+          { "name": "Redux/MobX", "description": "State management", "proficiency": 7 },
+          { "name": "Microservices", "description": "Distributed systems", "proficiency": 6 }
+        ]
+      },
+      {
+        "icon": "Settings",
+        "title": "Tools & Testing",
+        "skills": [
+          { "name": "Xcode", "description": "iOS development IDE", "proficiency": 11 },
+          { "name": "Android Studio", "description": "Android IDE", "proficiency": 6 },
+          { "name": "VS Code", "description": "Code editor", "proficiency": 8 },
+          { "name": "Cursor", "description": "AI code editor", "proficiency": 4 },
+          { "name": "windsurf", "description": "AI code editor", "proficiency": 4 },
+          { "name": "Fleet", "description": "Code editor", "proficiency": 2 },
+          { "name": "XCTest/JUnit", "description": "Unit testing", "proficiency": 10 },
+          { "name": "Appium", "description": "Mobile automation testing", "proficiency": 5 }
+        ]
+      },
+      {
+        "icon": "Puzzle",
+        "title": "Other Skills",
+        "skills": [
+          { "name": "Git", "description": "Version control", "proficiency": 11 },
+          { "name": "Jira/Agile", "description": "Project management", "proficiency": 10 },
+          { "name": "Figma", "description": "Design collaboration", "proficiency": 6 },
+          { "name": "Adobe XD", "description": "Design collaboration", "proficiency": 6 },
+          { "name": "Sketch", "description": "Design collaboration", "proficiency": 6 },
+          { "name": "App Store Connect", "description": "iOS deployment", "proficiency": 11 },
+          { "name": "Play Console", "description": "Android deployment", "proficiency": 6 }
+        ]
+      }
+    ],
+    "texts": {
+      "techStackTitle": "Expertise",
+      "skillsGridTitle": "Technical Skills",
+      "expertiseTitle": "What I Do",
+      "getInTouchBtn": "Get in Touch",
+      "viewResumeBtn": "View Resume"
+    }
+  },
+  "about": {
+    "texts": {
+      "pageTitle": "About Me",
+      "introduceTitle": "LET ME INTRODUCE MYSELF",
+      "workUpdateTitle": "SHORT WORK UPDATE OF MYSELF",
+      "currentRoleTitle": "Current Role",
+      "hobbiesTitle": "Hobbies & Interests",
+      "skillsTitle": "Skills & Technologies"
+    },
+    "bio": "Hello, I'm Hiren Joshi. A Mobile Architect and Software Engineer with {experience} of experience building high-impact applications across iOS, Android, Flutter, and React Native. I specialize in designing scalable architectures, leading engineering teams, and delivering user-friendly solutions that serve global audiences. My expertise spans healthcare, gaming, and enterprise domains, with a strong track record of improving product performance, reducing delivery times, and scaling apps to millions of users.",
+    "careerStartDate": "2009-03",
+    "hobbies": [
+      "Mobile Architecture Design",
+      "Technical Mentorship",
+      "Code Reviews",
+      "Performance Optimization",
+      "Reading Tech Articles"
+    ],
+    "currentCompany": "Leading Tech Company",
+    "currentRole": "Mobile Architect",
+    "currentResponsibilities": [
+      "Designing scalable mobile architectures for iOS, Android, Flutter, and React Native",
+      "Leading and mentoring engineering teams of up to 24 developers",
+      "Optimizing delivery pipelines and improving product performance",
+      "Ensuring technical excellence and code quality across all mobile platforms",
+      "Scaling applications to serve millions of users globally"
+    ],
+    "skills": {
+      "Operating Systems": [
+        { "name": "Windows OS", "icon": "💻", "description": "Development & deployment" },
+        { "name": "macOS", "icon": "🍎", "description": "iOS development platform" },
+        { "name": "Linux", "icon": "🐧", "description": "Server & DevOps" },
+        { "name": "Kali Linux", "icon": "🔒", "description": "Security & testing" }
+      ],
+      "Mobile Development": [
+        { "name": "iOS (Objective-C)", "icon": "📱", "description": "10+ years native iOS" },
+        { "name": "iOS (Swift)", "icon": "🦅", "description": "Modern Swift development" },
+        { "name": "iOS (SwiftUI)", "icon": "✨", "description": "Declarative UI framework" },
+        { "name": "Android (Kotlin)", "icon": "🤖", "description": "5+ years Kotlin expertise" },
+        { "name": "Android (Java)", "icon": "☕", "description": "Android foundation" },
+        { "name": "Flutter", "icon": "🎯", "description": "5+ years cross-platform" },
+        { "name": "React Native", "icon": "⚛️", "description": "5+ years RN apps" }
+      ],
+      "Programming Languages": [
+        { "name": "Swift", "icon": "🔶", "description": "Primary iOS language" },
+        { "name": "Objective-C", "icon": "📘", "description": "Legacy iOS development" },
+        { "name": "Kotlin", "icon": "🟣", "description": "Modern Android development" },
+        { "name": "Java", "icon": "☕", "description": "Android & enterprise" },
+        { "name": "Dart", "icon": "🎯", "description": "Flutter development" },
+        { "name": "JavaScript", "icon": "🟨", "description": "React Native & web" },
+        { "name": "TypeScript", "icon": "🔷", "description": "Type-safe development" },
+        { "name": "Python", "icon": "🟨", "description": "Security & testing & AI & ML & Data Science & Automation & DevOps" },
+        { "name": "node.js", "icon": "🔷", "description": "Server & DevOps" }
+      ],
+      "Cloud & Database": [
+        { "name": "Firebase", "icon": "🔥", "description": "Real-time mobile backend" },
+        { "name": "AWS", "icon": "☁️", "description": "Cloud infrastructure" },
+        { "name": "Core Data", "icon": "💾", "description": "iOS data persistence" },
+        { "name": "Realm", "icon": "🗄️", "description": "Mobile database" },
+        { "name": "SQLite", "icon": "📊", "description": "Local data storage" },
+        { "name": "PostgreSQL", "icon": "🐘", "description": "Backend database" }
+      ],
+      "UI/UX Design": [
+        { "name": "Figma", "icon": "🎨", "description": "Design & prototyping" },
+        { "name": "Sketch", "icon": "💎", "description": "UI design tool" },
+        { "name": "Material Design", "icon": "📐", "description": "Android design system" },
+        { "name": "Human Interface", "icon": "🍏", "description": "iOS design guidelines" }
+      ],
+      "DevOps": [
+        { "name": "Fastlane", "icon": "🚀", "description": "Mobile CI/CD automation" },
+        { "name": "TestFlight", "icon": "✈️", "description": "iOS beta testing" },
+        { "name": "App Center", "icon": "📱", "description": "Mobile DevOps" },
+        { "name": "Jenkins", "icon": "🔧", "description": "CI/CD pipelines" },
+        { "name": "GitHub Actions", "icon": "⚡", "description": "Automated workflows" },
+        { "name": "Docker", "icon": "🐳", "description": "Containerization" }
+      ],
+      "Frameworks & Libraries": [
+        { "name": "UIKit", "icon": "📱", "description": "iOS UI framework" },
+        { "name": "SwiftUI", "icon": "✨", "description": "Modern iOS UI" },
+        { "name": "Jetpack Compose", "icon": "🎨", "description": "Android UI toolkit" },
+        { "name": "RxSwift", "icon": "🔄", "description": "Reactive programming" },
+        { "name": "Combine", "icon": "🔗", "description": "Apple's reactive framework" },
+        { "name": "Alamofire", "icon": "🌐", "description": "Networking for Swift" },
+        { "name": "Retrofit", "icon": "🔌", "description": "Android networking" }
+      ],
+      "Tools & IDE": [
+        { "name": "Xcode", "icon": "🔨", "description": "iOS development IDE" },
+        { "name": "Android Studio", "icon": "🤖", "description": "Android development IDE" },
+        { "name": "VS Code", "icon": "💙", "description": "Flutter & RN development" },
+        { "name": "Cursor", "icon": "🤖", "description": "Cursor IDE" },
+        { "name": "Windsurf", "icon": "🤖", "description": "Windsurf IDE" },
+        { "name": "Git", "icon": "🌳", "description": "Version control" },
+        { "name": "Postman", "icon": "📮", "description": "API testing" },
+        { "name": "Charles Proxy", "icon": "🔍", "description": "Network debugging" },
+        { "name": "Jira", "icon": "📊", "description": "Project management" },
+        { "name": "Figma", "icon": "🎨", "description": "Design & prototyping" },
+        { "name": "Sketch", "icon": "💎", "description": "UI design tool" },
+        { "name": "Material Design", "icon": "📐", "description": "Android design system" },
+        { "name": "Human Interface", "icon": "🍏", "description": "iOS design guidelines" }
+      ]
+    }
+  },
+  "workHistory": {
+    "texts": {
+      "pageTitle": "Work History",
+      "pageSubtitle": "My professional journey through the years"
+    }
+  },
+  "workHistoryEntries": [
+    {
+      "company": "Reliable Group Paragon LLP / AskMia Global Pvt. Ltd.",
+      "role": "FE Architect & Software Developer",
+      "startDate": "2025-02",
+      "endDate": null,
+      "location": "Mumbai/Pune, India",
+      "promotions": [],
+      "achievements": [
+        "Working as a contract FE Architect & Software Developer with Reliable Group Paragon LLP / AskMia Global Pvt. Ltd.",
+        "Specializing in mobile app development(React Native), web development, AI/ML Engineer and custom software solutions using a variety of technologies including React Native, Flutter, iOS (Swift/Objective-C), Android (Kotlin/Java), and backend technologies.",
+        "Collaborating closely with clients and stack holders to understand their requirements, provide regular updates, and ensure timely delivery of projects.",
+        "Continuously learning and adapting to new technologies and industry trends to provide the best possible solutions to clients."
+      ]
+    },
+    {
+      "company": "Itcom Innovation Gaming Group",
+      "role": "Principle Mobile Engineer",
+      "startDate": "2023-01",
+      "endDate": "2025-01",
+      "location": "Singapore/Philippines",
+      "promotions": [],
+      "achievements": [
+        "Led a team of 20 engineers in the life-cycle development of mobile games for Android and iOS platforms.",
+        "Standardized code using Agile methods, applied best practices, and introduced code analysis, speeding up project delivery and reducing defect rates.",
+        "Managed the integration of third party SDKs, ensured compliance with platform guidelines and maintained high application performance.",
+        "Managed all aspects of the development life-cycle, including requirements gathering, architecture design, coding, testing, and implementation."
+      ]
+    },
+    {
+      "company": "My-Onsite Healthcare India Pvt. Ltd.",
+      "role": "Mobile Team Lead",
+      "startDate": "2020-03",
+      "endDate": "2023-01",
+      "location": "USA/India",
+      "promotions": [],
+      "achievements": [
+        "Parent-Child Details: I Was working as Mobile Team Lead at Indralok Technology Pvt. Ltd. during March 2020 till Feb 2022.",
+        "Guided a team of 15 to developed and deployed scalable mobile solutions in native iOS, Android, React Native, and Flutter environments, which touched 100+ users",
+        "Implemented a new system, ensured full guidance to all team members, improved product quality and reduced time to market.",
+        "Developed robust API integration mechanisms for simple data exchange between mobile applications and backend systems.",
+        "Using an agile scrum methodology improved the speed of the development team and reduced technical costs."
+      ]
+    },
+    {
+      "company": "Vetron IT & Consultancy Services",
+      "role": "Mobile Team Lead",
+      "startDate": "2018-05",
+      "endDate": "2020-03",
+      "location": "Surat, India",
+      "promotions": [],
+      "achievements": [
+        "Directed a team of 24 to develop and deploy enterprise mobile applications, driving customer satisfaction and loyalty.",
+        "Conducted workshops on increasing team skills, assigned more challenging tasks, and mentored junior members, increasing team cohesion and project delivery.",
+        "Developed detailed documentation regarding project requirements, construction and planning.",
+        "Collaborated with product owners and stakeholders to determine project scope and deliverables."
+      ]
+    },
+    {
+      "company": "Rawalwasia Group & Textlise",
+      "role": "Senior iOS Developer",
+      "startDate": "2017-01",
+      "endDate": "2018-04",
+      "location": "Surat, India",
+      "promotions": [],
+      "achievements": [
+        "Developed and maintained native iOS applications to ensure high performance and user satisfaction.",
+        "Swift, Objective-C, and SwiftUI were used to create an efficient and effective solution.",
+        "APIs were integrated to communicate with back-end services and data platforms.",
+        "Provided technical leadership on projects and mentored juniors."
+      ]
+    },
+    {
+      "company": "Onus Info Tech",
+      "role": "Senior iOS Developer",
+      "startDate": "2014-09",
+      "endDate": "2017-01",
+      "location": "Surat, India",
+      "promotions": [],
+      "achievements": [
+        "Designed and enhanced user interfaces for mobile apps using design patterns to enhance user experience.",
+        "Reviewed code and optimized application performance, resulting in greater user retention.",
+        "Identify opportunities to improve process through the use of automation tools and techniques.",
+        "Developed user interface modules and worked with UI/UX designers."
+      ]
+    },
+    {
+      "company": "Devlon/Grip Info Tech",
+      "role": "Software Engineer",
+      "startDate": "2011-11",
+      "endDate": "2014-09",
+      "location": "India",
+      "promotions": [],
+      "achievements": [
+        "Android and PHP applications were developed, complementing the company’s technology portfolio.",
+        "Assisted in product development, development, implementation, and testing activities.",
+        "Worked with multidisciplinary teams to deliver high quality solutions.",
+        "Codes and recycling were developed while adhering to regulatory standards."
+      ]
+    }
+  ],
+  "contact": {
+    "title": "Let's Work Together",
+    "description": "I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.",
+    "texts": {
+      "pageTitle": "Get In Touch",
+      "pageSubtitle": "Let's create something amazing together",
+      "connectTitle": "Connect With Me",
+      "quickInfoTitle": "Quick Info",
+      "formNameLabel": "Name",
+      "formEmailLabel": "Email",
+      "formMessageLabel": "Message",
+      "formSubmitBtn": "Send Message"
+    },
+    "socials": [
+      {
+        "name": "GitHub",
+        "url": "https://github.com/hirenjoshi6",
+        "icon": "Github"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/joshiren0007/",
+        "icon": "Linkedin"
+      },
+      {
+        "name": "Twitter",
+        "url": "https://x.com/hirenjoshi6",
+        "icon": "Twitter"
+      },
+      {
+        "name": "Email",
+        "url": "mailto:hirenjoshi0007@gmail.com",
+        "icon": "Mail"
+      }
+    ]
+  },
+  "blogs": [
+    {
+      "id": 1,
+      "title": "Building Scalable Microservices with Node.js",
+      "excerpt": "Learn how to architect and deploy microservices that can handle millions of requests.",
+      "date": "2024-01-15",
+      "readTime": "8 min read",
+      "tags": ["Node.js", "Microservices", "Architecture"],
+      "url": "#"
+    },
+    {
+      "id": 2,
+      "title": "React Performance Optimization Techniques",
+      "excerpt": "Deep dive into advanced React optimization strategies for large-scale applications.",
+      "date": "2024-02-20",
+      "readTime": "10 min read",
+      "tags": ["React", "Performance", "JavaScript"],
+      "url": "#"
+    },
+    {
+      "id": 3,
+      "title": "Kubernetes Best Practices for Production",
+      "excerpt": "Essential tips for running Kubernetes clusters in production environments.",
+      "date": "2024-03-10",
+      "readTime": "12 min read",
+      "tags": ["Kubernetes", "DevOps", "Cloud"],
+      "url": "#"
+    }
+  ],
+  "footer": {
+    "copyright": "© {year} Hiren Joshi. All rights reserved.",
+    "developer": "Designed & Built by Hiren Joshi",
+    "links": [
+      { "name": "Privacy Policy", "url": "/privacy" },
+      { "name": "Terms of Service", "url": "/terms" }
+    ]
+  }
+}
